@@ -1,0 +1,540 @@
+.sign-in{
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.sign-width{
+    width: 270px;
+}
+.sign-in-cont{
+    text-align: center;
+    background: #fff;
+    height: 100%;
+    width: 270px;
+    margin: 0 auto;vb
+    margin-top: 20px;
+}
+.head{
+    width: 61px;
+    height: 61px;
+    margin: 30px auto;
+    background-image: url(./images/front.svg);
+    background-size: 61px 61px;
+}
+body
+    {background: #fff;
+    font-family: Roboto,Helvetica Neue,Segoe UI,Helvetica,Arial,sans-serif;
+    line-height: 1;
+    color: #000;
+    text-rendering: optimizeLegibility;
+}
+*{
+    border:none;
+    padding:0;
+    margin:0;
+}
+form{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.field{
+    background: #f2f8fd;
+    border: 1px solid #dee7ef;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+.field label{
+    font-size: 10px;
+    color: #aebecd;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: right;
+    top: 50%;
+    margin-top: 16px;
+    margin-right: -40px;
+    float: right;
+    z-index: 1;
+    opacity: 0;
+    transition: all .3s ease;
+}
+label{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+
+}
+.field input {
+    background: transparent;
+    font-size: 14px;
+    color: #596474;
+    padding: 14px 15px;
+    padding-right: 7px;
+    width: 100%;
+    position: relative;
+    transition-property: padding,color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+input{
+    border:0;
+    margin:0;
+}
+.field>span {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+input::placeholder{
+    font-style: italic;
+    color: #C6D6E4;
+}
+.Form-input input::placeholder{
+    font-style:inherit;
+    font-size:18px;
+    font-weight: 100;
+}
+.row {
+    margin-bottom: 20px;
+    position: relative;
+}
+.error-tooltip {
+    position: absolute;
+    height: 24px;
+    padding: 7px 12px;
+    z-index: 9999;
+    opacity: 0;
+    transform: translate(50px);
+    transition: all .3s ease;
+    margin-top: -10px;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.5);
+    border-radius: 6px;
+    color: #4c5c6e;
+    font-size: 12px;
+    font-style: italic;
+    line-height: .8;
+}
+.row button:disabled {
+    border: 1px solid #dee7ef;
+    background: transparent;
+    border-radius: 6px;
+    color: #aebecd;
+}
+.row button {
+    display: block;
+    background: #4a90e2;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 12px 0;
+    border: 1px solid transparent;
+    transition: all .4s ease;
+}
+.row.third-party-signin {
+    margin-top: 50px;
+}
+.row.third-party-signin button:first-child {
+    margin-bottom: 10px;
+}
+.row p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #aebecd;
+    line-height: 15px;
+    width: 100%;
+}
+.row p a {
+    color: #4a90e2;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    background: transparent;
+    position: absolute;
+    border-bottom: none;
+}
+.sign-up{
+        width: 100%;
+        top: 0;
+        z-index: 99999999;
+        
+ }
+.Navbar-list {
+        display: flex;
+        width: 1200px;
+        max-width: 90%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 20;
+}
+ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+}
+.Navbar-item {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    touch-action: manipulation;
+    margin-right: 28px;
+    z-index: 10;
+}
+.Navbar-logo {
+    display: inline-flex;
+    width: 123px;
+    height: 70px;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+}
+
+.cardsec .HomeHeader {
+    padding-top: 100px!important;
+}
+.HomeHeader {
+    color: #fff;
+    margin-top: 0;
+    padding-top: 130px;
+    position: relative;
+    overflow-x: hidden;
+}
+.block .grid {
+    margin: 0 auto;
+}
+.grid {
+    position: relative;
+    width: 1200px;
+    width: 75rem;
+    display: block;
+    overflow:hidden;
+}
+.-text-center {
+    text-align: center;
+}
+.Cell--center {
+    display: block;
+    margin: 0 auto;
+}
+.Cell {
+    z-index: 2;
+    position: relative;
+}
+ .signup-title h1 {
+    font-weight: 500;
+}
+.HomeHeader-title {
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+.HomeHeader-desc {
+    font-weight: 500;
+    font-size: 18px;
+    color: hsla(0,0%,100%,.5);
+    line-height: 28px;
+    max-width: 380px;
+    margin: 0 auto 30px;
+}
+.HomeHeader::after{
+        content: "";
+        position: absolute;
+        top: -70px;
+        bottom: 280px;
+        left: -1px;
+        right: -1px;
+        background-image: url(./images/home-gradient.svg);
+        background-size: cover;
+        background-position: bottom;
+        z-index: 0;
+        background-repeat: no-repeat;
+    }
+.grid-header{
+    content: "";
+        position: absolute;
+        top: -70px;
+        bottom: 280px;
+        left: -1px;
+        right: -1px;
+        background-image: url(./images/home-gradient.svg);
+        background-size: cover;
+        background-position: bottom;
+        z-index: 0;
+        background-repeat: no-repeat;
+    }
+
+    .Cell {
+        z-index: 2;
+        position: relative;
+        display: inline-block;
+    vertical-align: top;
+}
+.Form {
+    margin: 0 auto;
+    width: 100%;
+    transition: opacity .3s ease;
+}
+    .r-all--12of12 {
+        width: 100%;
+    }
+    .signupCard {
+        margin-top: 60px;
+        margin-bottom: 5px;
+    }
+    .card-body {
+        border-radius: 8px;
+        background: hsla(0,0%,100%,.98);
+        box-shadow: 1px 1px 4px 4px hsla(0,0%,59%,.3);
+        z-index: 1;
+        max-width: 550px;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+    }
+    .Form--signup {
+        padding-top: 8px;
+        padding-bottom: 89px;
+        max-width: 510px;
+    }
+    .Form-field {
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-top: 24px;
+    position: relative;
+    text-align: left;
+    }
+    .Form-label {
+        font-weight: 600;
+        font-size: 14px;
+        color: #4d4f51;
+        margin-bottom: 12px;
+        display: inline-block;
+    }
+    .Form-field .Form-label {
+        margin-bottom: 0;
+    }
+    .Form-input {
+        position: relative;
+    }
+    .Form-input{
+        font-size: 16px;
+        width: 100%;
+    }
+    .Form-input input {
+        padding: 8px 20px 12px 15px;
+    }
+    .Form-input input, .Form-input select{
+        -moz-appearance: none;
+        appearance: none;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 500;
+        font-family: Whitney SSm A,Whitney SSm B,Whitney,Helvetica Neue,sans-serif;
+        background: #fff;
+        border-radius: 4px;
+        border: 1px solid rgba(0,0,0,.12);
+        color: #2e3033;
+        display: block;
+        margin: 0 auto;
+        padding: 12px 30px 12px 12px;
+        position: relative;
+        transition-duration: .3s;
+        transition-property: box-shadow;
+        transition-timing-function: ease;
+        z-index: 10;
+        -webkit-appearance: none;
+        width: 100%;
+        font-size: 16px;
+    }
+    .Form-field header {
+        margin-bottom: 8px;
+    }
+    .Form-field.button {
+        margin-top: 30px;
+    }
+    .Form-button {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 18px;
+        position: relative;
+        transition-property: opacity,width;
+        transition-duration: .3s;
+        transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+        opacity: 1;
+        display: block;
+        width: 100%;
+        min-height: 48px;
+    }
+    .BlueBtn{
+        border-radius: 5px;
+        font-weight: 600;
+        font-family: Whitney SSm A,Whitney SSm B,Whitney,Helvetica Neue,sans-serif;
+        font-style: normal;
+        color: #fff;
+        cursor: pointer;
+        padding: .938em 2.188em;       
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+        white-space: nowrap;
+}
+.Form-button span {
+    font-size: 16px;
+    letter-spacing: -.22px;
+}
+.Form-button span {
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    transition: opacity .2s cubic-bezier(.25,.46,.45,.94);
+}
+span.default {
+    opacity: 1;
+}
+.Signup-tip.-center {
+    text-align: center;
+}
+ .Signup-tip {
+    font-weight: 500;
+    color: #9b9c9e;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.Signup-tip .-alt {
+    color: #6488cc;
+    text-decoration: underline;
+}
+.privacy-tick-box {
+    margin-top: 15px;
+}
+.tick-box-paragraph {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.privacy-tick-box p {
+    color: grey;
+    padding-top: 15px;
+}
+.privacy-tick-box p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.Cell--center {
+    display: block;
+    margin: 0 auto;
+}
+.HomeTestimonials h2 {
+    font-weight: 600;
+    font-size: 35px;
+    text-align:center;
+    color: #4d4f51;
+    margin: 110px 0 90px;
+}
+.-text-center {
+    text-align: center;
+}
+.Cell--center {
+    display: block;
+    margin: 0 auto;
+}
+.grid {
+    margin: 0 auto;
+}
+.HomeTestimonials-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.HomeTestimonials-logos li {
+    max-width: calc(15% - 30px);
+    height: auto;
+    display: inline-block;
+    transform: scale(1.1);
+}
+.HomeTestimonials {
+    margin-bottom: 120px;
+}
+.grid-header{
+    background: #6488cc;
+}
+.PillBtn {
+    -webkit-appearance: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+    background-color: #6488cc;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.02), 0 1px 5px 0 rgba(100,136,204,.06), 0 4px 15px 0 rgba(0,0,0,.07);
+    border-radius: 100px;
+    padding: 0 20px;
+    min-height: 45px;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .15s ease,box-shadow .15s ease;
+}
+.HomeHeader-buttons {
+    display: inline-flex;
+    flex-direction: column;
+}
+.PillBtn-white {
+    background: #fff;
+    color: #4d4f51;
+    margin-bottom: 24px;
+    box-shadow: 0 0 2px 1px rgba(0,0,0,.01), 0 1px 4px 0 rgba(0,0,0,.015), 0 6px 20px 0 rgba(0,0,0,.1);
+}
+.PillBtn-lightgrey{
+    margin-left: 10px;
+}
+.videoBtn{
+background: transparent;
+    padding: 5px 7px 5px 0;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 5px;
+    color: hsla(0,0%,100%,.7);
+    transition: all .2s ease;
+    position: relative;
+}
+.videoBtn:before {
+    content: "";
+    background-image: url(./images/video-icon.svg);
+    width: 15px;
+    height: 15px;
+    opacity: .7;
+    position: absolute;
+    left: -30px;
+}
+#form2{
+    display: none;
+}
+#form3{
+    display:none;
+}
+.row .inline-field {
+    
+    display: flex;
+}
+.append-to-field {
+    line-height: 47px;
+}
