@@ -14,7 +14,7 @@
     background: #fff;
     height: 100%;
     width: 270px;
-    margin: 0 auto;vb
+    margin: 0 auto;
     margin-top: 20px;
 }
 .head{
@@ -537,4 +537,83 @@ background: transparent;
 }
 .append-to-field {
     line-height: 47px;
+}
+.teamsec{
+    margin-top: 70px;
+    position: relative;
+}
+.curly--left {
+    top: 0;
+    left: 0;
+    transform: translate3d(-45%,-35%,0) rotate(-30deg);
+}
+.curly {
+    position: absolute;
+    z-index: 0;
+}
+.curly .div-swirl {
+    z-index: 1;
+    position: relative;
+    opacity: .25;
+    will-change: tranform;
+    transform-origin: center center;
+}
+.div-swirl.-second {
+    margin: -100px 0 0 -100px;
+}
+.div-swirl.-green svg path {
+    fill: #7ed321;
+}
+.div-swirl.-blue svg path {
+    fill: #4a90e2;
+}
+.Cell--center-content {
+    text-align: center;
+}
+.BigPicture-title {
+    font-weight: 700;
+    color: #2e3033;
+    font-size: 52px;
+    margin: 0;
+}
+.Teammates {
+    margin: 80px auto 0;
+    display: block;
+}
+.TeamMember-mathilde {
+    padding-left: 17%;
+}
+.TeamMember-avatar {
+    display: inline-block;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    background-image: url('./images/mathilde.jpg');
+}
+.TeamMember-infos {
+    color: #2c2a2a;
+}
+.TeamMember-name, .TeamMember-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.TeamMember-title {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+.TeamMember-title {
+    
+    margin-bottom: 4px;
+}
+.TeamMember-laurent {
+    padding-right: 17%;
 }
