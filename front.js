@@ -16,10 +16,12 @@ function Swap()
    }
 }
 function SecondSwap(){
-    if( d3.style.display == "none" ){
+    if( d3.style.display == "none" )
+    {
     d1.style.display = "none";
     d3.style.display = "block";   
-}else{
+}else
+{
     d1.style.display = "block";
       d3.style.display = "none";
 } 
