@@ -30,6 +30,7 @@ body
     line-height: 1;
     color: #000;
     text-rendering: optimizeLegibility;
+   
 }
 *{
     border:none;
@@ -206,7 +207,9 @@ ul {
     position: relative;
     z-index: 9;
 }
-
+.nav{
+    padding-bottom: 20px;
+}
 .cardsec .HomeHeader {
     padding-top: 100px!important;
 }
@@ -390,7 +393,7 @@ ul {
         font-style: normal;
         color: #fff;
         cursor: pointer;
-        padding: .938em 2.188em;       
+        padding: .938em 2.188em;   
         box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
         white-space: nowrap;
 }
@@ -683,10 +686,290 @@ background: transparent;
     margin-bottom: 80px;
 }
 .SwirlHeader .grid {
-    
     flex-grow: 1;
-    -ms-flex-negative: 0;
     flex-shrink: 0;
     flex-direction: column;
+}
+.careerheader::before{
+    position: absolute;
+    top: -90px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 570px;
+    content: "";
+    background: url(./images/goofyteam.jpg);
+    background-position: top;
+    background-size: cover;
+}
+h1.InfosBlock-header-title {
+    font-size: 56px;
+    line-height: 100px;
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+.r-all--10of12 {
+    width: 83.33333%;
+}
+.careerheader{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 80vh;
+    min-height: 750px;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.InfosBlock-header-join {
+    margin-top: 80px;
+    text-align: center;
+}
+.careerbtn{
+    border-radius: 5px;
+font-size: 16px;
+font-weight: 600;
+font-family: Whitney SSm A,Whitney SSm B,Whitney,Helvetica Neue,sans-serif;
+font-style: normal;
+color: #fff;
+cursor: pointer;
+padding: .938em 2.188em;
+display: inline-block;
+background-color: #6488cc;
+box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+appearance: none;
+white-space: nowrap;
+-webkit-appearance: none;
+}
+.InfosBlock-we-do {
+    padding-top: 110px;
+}
+.InfosBlock-name{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 64px;
+    color: #2e3033;
+    letter-spacing: 2.2px;
+}
+.InfosBlock-name--centered {
+    text-align: center;
+}
+.color-light-grey {
+    color: #c7c7c7!important;
+}
+.InfosBlock-copy--text {
+    font-size: 20px;
+    line-height: 2;
+}
+.InfosBlock-copy {
+    font-weight: 400;
+    margin: 1.2em 0;
+    color: #4a4a4a;
+}
+.r-all--8of12 {
+    width: 66.66667%;
+}
+.telescope::before{
+    content:"";
+    position: absolute;
+    background-image: url(./images/telescope.png);
+    background-size: 100%;
+    left: 0;
+    right: 0;
+    top: -60px;
+    width: 30px;
+    height: 31px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.telescope{
+    position: relative;
+   
+}
+.Carousel-container {
+    height: 480px;
+    background-image: linear-gradient(-180deg,#fff,#fdfdfd);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.07), inset 0 0 0 1px rgba(0,0,0,.07);
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    margin: 80px 0;
+    z-index: 1;
+}
+.Carousel-section {
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.Carousel-section.-selected .Carousel-testimonial {
+    opacity: 1!important;
+}
+.Carousel-section .Carousel-picture, .Carousel-section .Carousel-testimonial {
+    opacity: 0!important;
+    transition: opacity .3s ease;
+}
+.Carousel-testimonial {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px 0 30px;
+    max-width: 375px;
+}
+.Carousel-text {
+    line-height: 1.7;
+    color: #4a4a4a;
+    opacity: 0;
+}
+.Carousel-name{
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 600;
+    color: #282828;
+    opacity: 0;
+    line-height: 1.5;
+}
+.Carousel-picture>div {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.Carousel-picture {
+    flex: 3;
+    background: #3a4446;
+    opacity: 0;
+    position: relative;
+}
+.Carousel-section.-selected .Carousel-picture, .Carousel-section.-selected .Carousel-testimonial {
+    opacity: 1!important;
+}
+.Carousel-dots {
+    position: absolute;
+    bottom: 25px;
+    left: 35px;
+    display: flex;
+}
+.Carousel-dot {
+    outline: none;
+    padding: 6px;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    box-sizing: content-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+.Carousel-dot.-selected:before {
+    opacity: 1;
+}
+.Carousel-dot:before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #525252;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity .2s ease;
+    top: 4px;
+    left: 4px;
+    z-index: 10;
+}
+.Carousel-dot:after {
+    content: "";
+    position: absolute;
+    box-shadow: inset 0 0 0 2px #525252;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    top: 4px;
+    left: 4px;
+    z-index: 5;
+    opacity: .2;
+    transition: opacity .2s ease;
+}
+.text-center {
+    text-align: center;
+}
+.InfosBlock-link {
+    display: block;
+    font-weight: 600;
+}
+.color-marine-blue {
+    color: #4261a2!important;
+}
+.cardSec{   
+        padding-top: 110px;
+        background-color: #f8f8f8;
+        position: relative;    
+}
+.cardS{
+    position:relative;
+    width:1100px;
+
+}
+.Grid--auto{
+    width: auto;
+}
+.r-all--12of12 {
+    width: 100%;
+}
+.InfosBlock-table {
+    margin-top: 50px;
+    padding: 30px;
+}
+.r-all--1of2{
+    width:40%;
+}
+.Cell--infos-padded .InfosBlock-card {
+    text-align: center;
+    background: #fff;
+    background-image: linear-gradient(-180deg,#fff,#fdfdfd);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.07), inset 0 0 0 1px rgba(0,0,0,.07);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 40px;
+    min-height: 180px;
+}
+.Grid--withGutter>.Cell {
+    padding: 0 24px;
+    padding: 0 1.5rem;
+}
+.cardS .Cell{
+   display:inline-block;
+    vertical-align: top;   
+}
+.InfosBlock-card-title {
+    font-weight: 700;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    display: block;
+}
+.InfosBlock-card-text {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+}
+.InfosBlock-emoji {
+    min-height: 40px;
+    font-size: 0;
+    margin-bottom: 20px;
 }
 

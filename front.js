@@ -1,4 +1,3 @@
-
  var d1 = document.getElementById('form1');
  var d2 = document.getElementById('form2');
  var d3 = document.getElementById('form3');
@@ -25,4 +24,5 @@ function SecondSwap(){
     d1.style.display = "block";
       d3.style.display = "none";
 } 
-}
+};
+
