@@ -179,6 +179,7 @@ a{
         z-index: 99999999;
         
  }
+ 
 .Navbar-list {
         display: flex;
         width: 1200px;
@@ -191,6 +192,16 @@ ul {
         list-style: none;
         margin: 0;
         padding: 0;
+}
+.feature{
+    position:absolute;
+    padding-top:20px;
+}
+.feature #front-logo, .feature #front-letters{
+    fill: #fff !important;
+}
+.feature li{
+    color: hsla(0,0%,100%,.9);
 }
 .Navbar-item {
     display: inline-flex;
@@ -270,6 +281,22 @@ ul {
         z-index: 0;
         background-repeat: no-repeat;
     }
+.Homeheader-features::after{
+    content: "";
+        position: absolute;
+        top: -70px;
+        bottom: 0px;
+        left: -1px;
+        right: -1px;
+        background-image: url(./images/home-gradient.svg);
+        background-size: cover;
+        background-position: bottom;
+        z-index: 0;
+        background-repeat: no-repeat;
+    }
+.Homeheader-features{
+    padding-bottom:140px;
+}
 .grid-header{
     content: "";
         position: absolute;
@@ -499,14 +526,22 @@ span.default {
     display: inline-flex;
     flex-direction: column;
 }
+.ftpill{
+    background-color: white;
+    color: #404abe;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
 .PillBtn-white {
     background: #fff;
     color: #4d4f51;
     margin-bottom: 24px;
     box-shadow: 0 0 2px 1px rgba(0,0,0,.01), 0 1px 4px 0 rgba(0,0,0,.015), 0 6px 20px 0 rgba(0,0,0,.1);
 }
-.PillBtn-lightgrey{
-    margin-left: 10px;
+.sndpill{
+    margin-left: 20px;
+    font-weight: 400;
 }
 .videoBtn{
 background: transparent;
@@ -1072,10 +1107,10 @@ white-space: nowrap;
     white-space: nowrap;
    
 }
-.InfosBlock-name--emoji-fixing-kit::before {
-    content: "";
+.cardS .tst {
+    
     position: absolute;
-    background-image: url(./images/fixing-kit@2x.png);
+ 
     background-size: 100%;
     left: 0;
     right: 0;
@@ -1085,5 +1120,153 @@ white-space: nowrap;
     margin-left: auto;
     margin-right: auto;
 }
-
+.IllustrationBlock {
+    background: #fff;
+    padding: 65px 0;
+    overflow: hidden;
+}
+.r-all--2of2{
+    width:100%;
+}
+.Cell--middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+.FeatureBlock-header {
+    color: #4d4f51;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+.FeatureBlock-header.--uppercase {
+    letter-spacing: .6px;
+    text-transform: uppercase;
+}
+h2+.FeatureBlock-copy{
+    margin-top:12px;
+}
+.FeatureBlock-copy {
+    font-weight: 200;
+    font-size: 15px;
+    color: #6f7175;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+.IllustrationBlock-illustration {
+    max-width: 100%;
+    height: auto;
+}
+.Grid--small{
+    width: 1000px;
+}
+.IllustrationBlock-title {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    color: #4d4f51;
+    line-height: 1.5;
+}
+.imgadntext{
+    padding-top:40px;
+}
+.FeatureSection {
+    background-image: linear-gradient(rgba(235,245,255,.2),#f6f9fc 99%);
+    padding: 80px 0;
+}
+.FeatureSection-container {
+    flex-wrap: wrap;
+    display: flex;
+    padding: 70px 0 0;
+}
+.FeatureItem {
+    flex-grow: 1;
+    flex-basis: calc(33% - 50px);
+    margin: 25px;
+}
+.FeatureItem-icon--bounds {
+    height: 58px;
+    width: 58px;
+}
+.FeatureItem--blue {
+    color: #6c7c9e;
+}
+.FeatureItem-icon {
+    margin-bottom: 20px;
+  
+}
+.FeatureItem-icon .border {
+    fill: currentColor;
+}
+.FeatureItem-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #6b7b9f;
+    text-align: left;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+.FeatureItem-copy {
+    font-weight: 400;
+    font-size: 14px;
+    color: #4d4f51;
+    line-height: 1.6;
+    text-align: left;
+}
+.CustomersBlock-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.6;
+    color: #4d4f51;
+}
+.CtaBlock-wrapper {
+    background-size: cover;
+    background-image: url(./images/background.svg);
+    padding: 190px 0;
+}
+.CtaBlock-container.--column .CtaBlock-title {
+    margin-right: 0;
+    margin-bottom: 40px;
+}
+.CtaBlock-title {
+    font-weight: 600;
+    font-size: 32px;
+    color: #4261a2;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.CtaBlock-form {
+    display: inline-flex;
+    justify-content: center;
+}
+.CtaBlock-form form {
+    display: inline-block;
+    background: rgba(132,154,176,.2);
+    border-radius: 10px;
+    padding: 18px;
+}
+.CtaBlock-form input {
+    font-size: 14px;
+    font-size: .875rem;
+    color: #9b9c9e;
+    border: 1px solid #e6e6e6;
+    padding: .938em;
+    border-radius: 4px;
+    outline: 0;
+    min-width: 300px;
+}
+.CtaBlock-container.--column {
+    flex-direction: column;
+}
+.CtaBlock-container {
+    display: flex;
+    justify-content: space-between;
+}
+.CtaBlock-form .careerbtn {
+    margin-left: 10px;
+}
+.CtaBlock-form input::placeholder {
+   font-style: normal;
+   color:inherit;
+}
 
